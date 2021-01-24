@@ -12,3 +12,4 @@ export class Dish {
     comments: Comment[];
 
 }
+
