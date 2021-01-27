@@ -14,8 +14,6 @@ export class DishService {
   }
 
   getDish(id:string): Dish {
-    console.log(id);
-    console.log(typeof(id));
     return DISHES.filter((dish) => {return dish.id === id} )[0];
   } 
 
